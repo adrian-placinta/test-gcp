@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the Spring Boot jar into the container
 COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 
-EXPOSE 8080
+EXPOSE 9000
 
 # Run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
